@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="tpsociété.css">
+        <meta charset="UTF-8">
+        <title>TP société</title>
+    </head>
+    <body>
+        <center>
+        <input id="Code8" type="text" placeholder="Saisissez votre code"/>
+        <div id="Clavier">
+    <div id="firstpart"> 
+        <div id="touche1" class="tableau" role="button" ></div>
+        <div id="touche2" class="tableau" role="button"></div>
+        <div id="touche3" class="tableau" role="button"></div>
+        <div id="touche4" class="tableau" role="button"></div>
+    </div>
+       <div id="secondpart">
+    <div id="touche5" class="tableau" role="button" ></div>
+        <div id="touche6" class="tableau" role="button" ></div>
+        <div id="touche7" class="tableau" role="button" ></div>
+        <div id="touche8" class="tableau" role="button" ></div>
+    </div>
+    <div id="thirdpart">
+        <div id="touche9" class="tableau" role="button" ></div>
+        <div id="touche10" class="tableau" role="button" ></div>
+        <div id="touche11" class="tableau" role="button" ></div>
+        <div id="touche12" class="tableau" role="button" ></div>
+    </div>
+        
+        <div id="touche13" class="tableau" role="button" ></div>
+        <div id="touche14" class="tableau" role="button" ></div>
+        <div id="touche15" class="tableau" role="button" ></div>
+        <div id="touche16" class="tableau" role="button" ></div>
+    </div>
+        <input id="Validation " type="submit" value="Valider">
+    </center>
+    <script>
+        var Codeligne = document.getElementById('Code8')
+        var Valider=document.getElementById('Validation')
+        Valider.addEventListener('click'()=>{
+            if(Codeligne.lenght!=8){
+                Valider.disabeld=true
+            }
+
+        })
+
+    </script>
+        
+
+
+
+
+            
+        </div>
+    </body>
+</html>
